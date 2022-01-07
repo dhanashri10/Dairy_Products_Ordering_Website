@@ -1,0 +1,11 @@
+touch .gitignore 
+git cinfig --global --global user.name Dhanashri
+git cinfig --global --global email.email dhanashriwani2000@gmail.com
+git init
+git add .
+git commit -m "Initial Commit"
+git status 
+ssh-keygen -t rsa -b 4096 -C "dhanashriwani2000@gmail.com"
+tail <path to id_rsa.pub> #add this key to github account
+git remote add origin<ssh url.git>
+git push origin mastet
