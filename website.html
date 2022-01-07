@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <seta charset="UTF-8">
+        <seta name ="viewpoint" content="width+device-width,initial scale=1,0">
+        <seta http-equiv="X-UA-Compatible"content="ie=edge">       
+        <title>Dairy Dreamers</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="images/logo.jpg"alt ="Dairy Dreamers">
+            </div>
+            <ul>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#products">Products</a></li>
+                <li class="item"><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <h1 class="h-primary">Welcome to the online Dairy</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            <p>Sit iste, laudantium molestias repellat aliquam praesentium nobis sapiente minus numquam.</p>
+            <button class="btn"><a href="#"" class='products'></a>Order Now</button>
+        </section>
+        <section class="products">
+            <h1 class="h-primary certer">Products</h1>
+                <div id="products">
+                    <div class="box">
+                        <img src="images/milk.jpg" alt="">
+                        <h5 class="h-secondary center"><center>MILK</center></h5>
+                        <div class="price"><center>RS 40<a href="#" class="btn">add to cart</center></a></div>
+                        
+                    </div>
+                    <div class="box">
+                        <img src="images/Ghee.jpg" alt="">
+                        <h5 class="h-secondary center"><center>GHEE</center></h5>
+                        <div class="price"><center>RS 500<a href="#" class="btn">add to cart</center></a></div>
+                        
+                    </div>
+                    <div class="box">
+                        <img src="images/dahi.jpg" alt="">
+                        <h5 class="h-secondary center"><center>YOUGURD</center></h5>
+                        <div class="price"><center>RS 100 <a href="#" class="btn">add to cart</center></a></div>
+                       
+                    </div>
+                    
+                    <div class="box">
+                        <img src="images/paneer.jpg" alt="">
+                        <h5 class="h-secondary center"><center>PANEER</center></h5>
+                        <div class="price"><center>RS 300<a href="#" class="btn">add to cart</center></a></div>
+                        
+                    </div>
+                    <div class="box">
+                        <img src="images/kharvas.png" alt="">
+                        <h5 class="h-secondary center">KHARVAS/MILK PUDDING</h5>
+                        <div class="price"><center>RS 150 <a href="#" class="btn">add to cart</center></a></div>
+                        
+                    </div>
+                    <div class="box">
+                        <img src="images/shrikhand.jpg" alt="">
+                        <h5 class="h-secondary center"><center>SHRIKHAND</center></h5>
+                        <div class="price"><center>RS 250<a href="#" class="btn">add to cart</center></a></div>
+                       
+                        
+                    </div>
+                </div>
+        </section>
+        <section id="contact">
+            <h1 class="h-primary center">Contact Us</h1>
+            <div id="contact-box">
+                <form action="insert.php" method= "POST">
+                    <div class="form-group">
+                        <label for="home">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <input type="address" name="address" id="address" placeholder="Enter your address">
+                    </div>
+                    <div class="form-group">
+                        <label for="home">Phone Number:</label>
+                        <input type="phone" name="phone" id="phone" placeholder="Enter your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="home">Message:</label>
+                        <textarea type="message" name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <input type="submit" value="order now" class="btn">
+                </form>
+            </div>
+        </section>
+        
+
+        <footer>
+            <div class="center">
+                Copyright & copy; www.DairyDreamers.com All rights reserved! 
+            </div>
+        </footer>
+
+    </body>
+    </html>
